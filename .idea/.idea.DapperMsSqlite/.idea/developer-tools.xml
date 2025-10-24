@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DeveloperToolsToolWindowSettingsV1" lastSelectedContentNodeId="code-style-formatting" pluginVersion="7.1.0">
+    <developerToolsConfigurations>
+      <developerToolConfiguration developerToolId="code-style-formatting" id="d330f353-8226-4828-ad86-9f4de1618a1c" name="Workbench">
+        <properties>
+          <property key="languageId" type="CONFIGURATION" value="kotlin.String|F#" />
+        </properties>
+      </developerToolConfiguration>
+    </developerToolsConfigurations>
+  </component>
+</project>
