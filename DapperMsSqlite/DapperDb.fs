@@ -141,6 +141,15 @@ module DapperDb =
             LogDapperDb($"Query with sql = \"{sql}\" success on result = {res} ")
 
             res
+        member this.ExecuteScalar<'T>(sql: string) : 'T =
+
+            use conn = new SqliteConnection(connStr)
+
+            let res = conn.ExecuteScalar<'T>(sql)
+
+            LogDapperDb($"Query with sql = \"{sql}\" success on result = {res} ")
+
+            res
 
 
         member this.ExecuteTransactDapper(sql: string) : int option =
